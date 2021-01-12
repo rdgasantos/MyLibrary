@@ -1,0 +1,29 @@
+<mat-card>
+    <mat-card-title>
+        Excluir Livro
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Título" [value]="book.title" name="title" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Autor" [value]="book.author" name="author" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Editora"[value]="book.publishing" name="publishing" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Páginas" [value]="book.pages" name="pages" disabled>
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="deleteBook()" color="warn">
+        Excluir
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
+
+
+

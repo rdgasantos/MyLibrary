@@ -1,0 +1,22 @@
+.home .title {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+
+}
+
+.home .subtitle {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.home .my {
+    color:#FFA500;
+    font-weight: 500;
+}
+
+.home .library {
+    color:#33B5FF;
+    font-weight: 500;
+}
