@@ -1,0 +1,36 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Uma breve história de quase tudo",
+      "author": "Bill Bryson",
+      "publishing-company": "Companhia das Letras",
+      "pages": 544,
+      "publishing": "Sinodal"
+    },
+    {
+      "id": 2,
+      "title": "Sapiens: Uma breve história da humanidade",
+      "author": " Yuval Noah Harari ",
+      "publishing-company": "L&PM",
+      "pages": 443,
+      "publishing": "Mundo encantado"
+    },
+    {
+      "id": 3,
+      "title": "Uma Breve História do Tempo",
+      "author": "Stephen Hawking",
+      "publishing-company": "Bantam Books",
+      "pages": 256,
+      "publishing": "Dabhar"
+    },
+    {
+      "title": "21 lições para o século 21",
+      "author": " Yuval Noah Harari ",
+      "publishing-company": "Companhia das Letras",
+      "pages": "432",
+      "id": 4,
+      "publishing": "Luzeiro"
+    }
+  ]
+}
